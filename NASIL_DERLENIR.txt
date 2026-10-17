@@ -1,0 +1,18 @@
+MevdZ Client - Kolay Derleme (bilgisayarina hicbir sey kurmadan)
+================================================================
+1. github.com'a gir, ucretsiz hesap ac (varsa giris yap).
+2. Sag ustte "+" > "New repository". Ad: MevdZClient, "Public" sec, "Create repository".
+3. Acilan sayfada "uploading an existing file" yazisina tikla.
+4. Bu zip'i cikar (sag tik > Hepsini ayikla). Icindeki HER SEYI sec
+   (src klasoru, .github klasoru, build.gradle.kts, settings.gradle.kts)
+   ve tarayicidaki sayfaya surukle birak. Alttaki "Commit changes" tikla.
+5. Ustteki "Actions" sekmesine gec. "Build" calisiyor olacak, yesil tik cikana kadar bekle (3-8 dk).
+6. Yesil tike tikla > en altta "Artifacts" > "MevdZClient" indir > zip'i ac, icindeki .jar mod'un.
+7. O .jar'i "MevdZ Launcher.pyw" dosyasinin yanina koy.
+   Launcher'da 1.8.9 sec, "MevdZ Client modu" kutusunu isaretle, OYNA.
+
+.github klasoru surukleyince gelmediyse: "Add file > Create new file", ad kismina
+  .github/workflows/build.yml  yaz, build.yml'in icerigini yapistir, Commit.
+Kirmizi carpi cikarsa: Actions'ta tikla, hata yazisini kopyalayip bana gonder.
+
+Oyun ici: Sag Shift = ayar ekrani, G = otomatik kosu.
